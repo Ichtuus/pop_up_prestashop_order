@@ -1,0 +1,28 @@
+/* Popup */
+
+.popup{
+    display: none;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    background: #FFF;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px #999;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999999;
+}
+
+.popup h2{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #2c3e52;
+}
+
+.popup p{
+    font-size: .8em;
+    color: #2c3e52;
+    text-align: left;
+    line-height: 140%;
+}
